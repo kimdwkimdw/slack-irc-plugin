@@ -22,12 +22,11 @@
     }
   ],
   "engines": {
-    "node": "*"
+    "node": ">=22.23.4"
   },
   "dependencies": {
-    "request": "~2.33.0",
-    "irc": "~0.3.6",
-    "underscore": "^1.7.0"
+    "irc": "^0.5.2",
+    "underscore": "^1.13.8"
   },
   "devDependencies": {},
   "bin": {
@@ -36,5 +35,8 @@
   "keywords": [
     "slack",
     "irc"
-  ]
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
 }

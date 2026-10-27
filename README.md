@@ -4,6 +4,8 @@ IRC integration with [slack](http://slack.com).
 
 ## Usage
 
+Requires Node.js 22.23.4 or newer. Install the locked dependencies with `npm ci`.
+
 ```javascript
 git clone https://github.com/jimmyhillis/slack-irc-plugin.git
 cd slack-irc-plugin
